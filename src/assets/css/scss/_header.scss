@@ -1,0 +1,58 @@
+
+/* header */
+  
+  
+  nav ul li a.active{
+    background-color: var(--color-secondary);
+    color: #fff;
+  }
+  nav ul li a:hover{
+    background-color: var(--color-secondary) !important;
+    color: #fff;
+  }
+  
+nav {
+    background-color: var(--color-primary);
+}
+nav ul li a{
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+}
+nav ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.menu_search  {
+
+  i{
+
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  cursor: pointer;
+  
+  svg{
+
+    fill: var(--color-white);
+  }
+  .cp_link{
+    background-color: var(--color-secondary);
+  }
+}
+
+// banner
+
+.bg_banner {
+  min-height: 450px;
+  background: url(https://vertel.com.au/assets/images/dark-image-banner.webp);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

@@ -1,14 +1,14 @@
 import React from "react";
-import Card from "../component/Card"
+// import Card from "../component/Card"
 
 const Home = () =>{
     return(
         <>
        <main>
-       <div className="container">
+       <div className="w-10/12 mx-auto">
 
-       <h1>Home page</h1>
-       <Card heading="brand logo" description="salogan"/>
+      Home
+       
        </div>
        </main>
         </>

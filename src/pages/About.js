@@ -6,7 +6,11 @@ const About = () =>{
         <>
         <main>
         <div className="container">
-        <Card heading="about card heading" description="about card description"/>
+        <Card 
+        heading="about card heading" 
+        description="about card description"
+        buttonText="download me"
+         />
         </div>
         </main>
         </>
